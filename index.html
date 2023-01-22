@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit's Personal Website</title>
+
+    <!-- linking css present in webd folder -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- embedding font onto the server so if one's system can't generate the fonts it will try to catch from here  -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Merriweather&family=Montserrat:wght@100;300&display=swap" rel="stylesheet">    
+    <!-- adding favicon -->
+    <link rel="icon"
+        href="data:image/png;base64,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">
+
+</head>
+<body>
+    <div class="top-container">
+    
+        <img class="top-cloud" src="cloud.png" alt="clous-image">
+        <h1>Henlo, I'm Mohit</h1>
+        <h2><p>a <span>pro</span>grammer</p></h2>
+        <img class="bottom-cloud" src="cloud.png" alt="clous-image">
+        <img  src="mountain.png" alt="mountain-image">
+    
+    </div>
+    
+    <div class="middle-container">
+        <div class="profile">
+          <img src="profile-photo.png" alt="Mohit's-photo" style="height: 200px;">
+          <h2>Hello.</h2>
+          <p>I am a web developer. I'm a student at Marwadi university pursuing Computer Engineering.</p>
+        </div>
+
+        <hr>
+
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="computer-image" src="computer.gif" alt="computer-image" style="height: 300px;">
+            <h3>Competitive Programmer</h3>
+            <p>I started my coding journey in my first year of Computer Engineering. I currently practise on Geeks for Geeks. Here's  <a href="https://auth.geeksforgeeks.org/user/mohitgosynjb/">my profile</a> </p>
+          </div>
+          <div class="skill-row">
+            <img class="crossplatform-image" src="cross-platform.png" alt="image" style="height: 300px;">
+            <h3>Cross-Platform developer</h3>
+            <p>I am also a cross-platform application developer, I work on flutter to create and design the apps.</p>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>If you are as much as into coding feel free to contact me.</h3>
+          <p>If you want help in , Competitive Coding? Web developer? Cross-Platform developer ? Below's my email address .</p>
+          <a class="btn" href="mohitgoswami379@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/mohitpuri-goswami-016668238/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/mohit572003">Twitter</a>
+        <a class="footer-link" href="https://www.google.com">Website</a>
+        <p>© 2022 Mohit Goswami.</p>
+      </div>
+      
+  
+
+</body>
+
+</html>
